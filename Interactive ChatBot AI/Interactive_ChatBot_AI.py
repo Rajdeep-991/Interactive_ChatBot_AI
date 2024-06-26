@@ -1,4 +1,4 @@
-# Import the Google PaLM generative AI library and alias it as 'palm
+# Import the Google PaLM generative AI library and alias it as 'palm'
 import google.generativeai as palm
 
 # Import the pyttsx3 library for text-to-speech conversion

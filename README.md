@@ -10,7 +10,7 @@ Features
 - Voice Recognition: Utilizes the speech_recognition library to capture and convert speech to text.
 - AI Response Generation: Employs Google's PaLM to generate contextually relevant and coherent text responses.
 - Text-to-Speech: Uses pyttsx3 to convert the AI-generated text responses back to speech for a natural conversational experience.
-- Continuous Interaction: Keeps the conversation going in a loop until the user says "Bye", "Exit", "Quit", "bye", "exit", or "quit".
+- Continuous Interaction: Keeps the conversation going in a loop until the user says any of the following: "Bye", "Exit", "Quit", "bye", "exit", or "quit".
 
 Requirements
 ------------
@@ -28,7 +28,7 @@ How To Use
 - Save your Google API Key in a file named Google_API_Key.txt.
 - Run the Python script. The chatbot will start listening for your voice input.
 - Speak to the chatbot and listen to its responses.
-- To exit the conversation, say "Bye", "Exit", "Quit", "bye", "exit", or "quit".
+- To exit the conversation, say any of the following: "Bye", "Exit", "Quit", "bye", "exit", or "quit".
 
 How It Works
 ------------
@@ -42,18 +42,8 @@ How It Works
 
 Notes
 -----
-- API Key Security:
-    - Ensure your Google API Key is kept secure and not exposed in public repositories.
-    - Consider using environment variables or encrypted storage for better security.
-
-- Speech Recognition Limitations:
-    - The accuracy of speech recognition may vary depending on the quality of the microphone, background noise, and clarity of speech.
-
-- Rate Limits:
-    - Be aware of any rate limits associated with the Google APIs you are using to avoid service interruptions.
-
-- Customizations:
-    - You can customize the chatbot's behavior by adjusting the parameters in the palm.generate_text method, such as max_output_tokens.
-
-- Dependencies:
-    - Ensure all dependencies are properly installed and compatible with your system to avoid runtime errors.
+- API Key Security: Ensure your Google API Key is kept secure and not exposed in public repositories by considering the use of environment variables or encrypted storage for better security.
+- Speech Recognition Limitations: The accuracy of speech recognition may vary depending on the quality of the microphone, background noise, and clarity of speech.
+- Rate Limits: Be aware of any rate limits associated with the Google APIs you are using to avoid service interruptions.
+- Customizations: You can customize the chatbot's behavior by adjusting the parameters in the palm.generate_text method, such as max_output_tokens.
+- Dependencies: Ensure all dependencies are properly installed and compatible with your system to avoid runtime errors.

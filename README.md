@@ -1,4 +1,4 @@
-Interactive Chatbot AI
+Interactive ChatBot AI
 ----------------------
 
 Overview
